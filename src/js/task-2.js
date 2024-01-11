@@ -16,8 +16,11 @@ function makeNegative(num) {
   //   console.log(number);
   // }
 
+  // return number;
 
-  return number;
+  num <= 0 ? num : -num;
+
+  return num;
 }
 
 
