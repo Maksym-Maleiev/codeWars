@@ -7,11 +7,14 @@ makeNegative(0.12); // return -0.12
 makeNegative(42);   // return -42
 
 function makeNegative(num) {
-  if (num > 0) {
-    console.log(Number(-(num)));
+  const number = Number(num);
+  if (number > 0) {
+    console.log(-(number));
+  } else if (number <= 0) {
+    console.log(number);
   } else {
-    console.log(Number(num));
+    console.log(number);
   }
 
-  return num;
+  return number;
 }
