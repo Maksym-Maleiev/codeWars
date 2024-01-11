@@ -8,11 +8,9 @@ makeNegative(42);   // return -42
 
 function makeNegative(num) {
   if (num > 0) {
-    console.log(`-${num}`);
-  } else if (num === 0) {
-    console.log(num);
+    console.log(Number(-(num)));
   } else {
-    console.log(num);
+    console.log(Number(num));
   }
 
   return num;
