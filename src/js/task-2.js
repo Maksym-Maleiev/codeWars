@@ -9,7 +9,7 @@ makeNegative(42);   // return -42
 function makeNegative(num) {
   const number = Number(num);
   if (number > 0) {
-    console.log(-(number));
+    console.log(-1 * number);
   } else if (number <= 0) {
     console.log(number);
   } else {
@@ -18,3 +18,12 @@ function makeNegative(num) {
 
   return number;
 }
+
+
+// function makeNegative(num) {
+//   const number = Number(num);
+  
+//   number > 0 ? -(1 * number) : number;
+
+//   return number;
+// }
