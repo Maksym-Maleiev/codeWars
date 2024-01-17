@@ -7,7 +7,7 @@
 
 function transform(str) {
   const symbols = {};
-  let result = '';
+  let result = str;
 
   for (let i = 0; i < str.lenght; i += 1){
     const letter = str[i];
@@ -16,7 +16,9 @@ function transform(str) {
 
   const symbArr = Object.entries(symbols);
 
-  symbArr.forEach();
+  symbArr.forEach(([key, value]) => {
+
+  });
 
   return symbols;
 }
