@@ -5,3 +5,14 @@
 // Ігноруйте використання великих букв при визначенні дубліката символу.
 // Приклади "din" => "((("; "recede" => "()()()"
 
+function transform(str) {
+  let result = '';
+
+
+
+  
+  return result;
+}
+
+console.log(transform('din')); // "((("
+console.log(transform('recede')); // "()()()"
