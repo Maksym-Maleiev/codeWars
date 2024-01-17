@@ -16,6 +16,8 @@ function transform(str) {
 
   const symbArr = Object.entries(symbols);
 
+  symbArr.forEach();
+
   return symbols;
 }
 
