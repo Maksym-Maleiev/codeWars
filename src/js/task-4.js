@@ -6,12 +6,15 @@
 // Приклади "din" => "((("; "recede" => "()()()"
 
 function transform(str) {
+  const symbols = {};
   let result = '';
 
+  for (let i = 0; i < str.lenght; i += 1){
+    const letter = str[i];
+    symbols[letter] = symbols[letter] ? symbols[letter] + 1 : 1;
+  }
 
-
-  
-  return result;
+  return symbols;
 }
 
 console.log(transform('din')); // "((("
