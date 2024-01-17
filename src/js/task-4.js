@@ -9,7 +9,7 @@ function transform(str) {
   const symbols = {};
   let result = str;
 
-  for (let i = 0; i < str.lenght; i += 1){
+  for (let i = 0; i < str.length; i += 1){
     const letter = str[i];
     symbols[letter] = symbols[letter] ? symbols[letter] + 1 : 1;
   }
