@@ -14,6 +14,8 @@ function transform(str) {
     symbols[letter] = symbols[letter] ? symbols[letter] + 1 : 1;
   }
 
+const 
+
   return symbols;
 }
 
