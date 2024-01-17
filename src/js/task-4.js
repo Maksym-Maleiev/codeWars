@@ -17,7 +17,8 @@ function transform(str) {
   const symbArr = Object.entries(symbols);
 
   symbArr.forEach(([key, value]) => {
-    result = result.replace();
+    const newSymbol = value === 1 ? '(' : ')';
+    result = result.replace(key);
   });
 
   return symbols;
