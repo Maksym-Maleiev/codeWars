@@ -14,7 +14,7 @@ function transform(str) {
     symbols[letter] = symbols[letter] ? symbols[letter] + 1 : 1;
   }
 
-  const symbArr = Object.entries();
+  const symbArr = Object.entries(symbols);
 
   return symbols;
 }
