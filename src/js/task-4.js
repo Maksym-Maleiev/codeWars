@@ -18,10 +18,10 @@ function transform(str) {
 
   symbArr.forEach(([key, value]) => {
     const newSymbol = value === 1 ? '(' : ')';
-    result = result.replace(key);
+    result = result.replace(key, /newSymbol/);
   });
 
-  return symbols;
+  return symbArr;
 }
 
 console.log(transform('din')); // "((("
