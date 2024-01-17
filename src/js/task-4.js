@@ -21,7 +21,7 @@ function transform(str) {
     result = result.replaceAll(key, newSymbol);
   });
 
-  return symbArr;
+  return result;
 }
 
 console.log(transform('din')); // "((("
